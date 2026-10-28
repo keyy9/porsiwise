@@ -1,0 +1,52 @@
+class_id,slug,nama,kelompok,tipe_label,prioritas,sumber_terbuka,remap_dari,tkpi_kata_kunci,porsi_default_g,porsi_urt,catatan_anotasi
+0,nasi_putih,Nasi putih,karbohidrat,komponen,A,CalorEase;Combination;Calory,CalorEase:nasi putih|Combination:nasi putih|Calory:Nasi,nasi|nasi putih,150,1 piring (±1½ centong),Satu mask untuk seluruh gundukan nasi di piring
+1,nasi_goreng,Nasi goreng,karbohidrat,hidangan,A,Combination,Combination:nasi goreng,nasi goreng,250,1 piring,Topping telur/kerupuk dilabel terpisah sebagai kelasnya sendiri
+2,nasi_kuning,Nasi kuning,karbohidrat,komponen,A,Combination,Combination:nasi kuning,nasi kuning,150,1 porsi,
+3,mie_goreng,Mie goreng,karbohidrat,hidangan,A,Combination,Combination:mie goreng,mi goreng|mie goreng,200,1 piring,Termasuk mie instan goreng
+4,mie_ayam,Mie ayam,karbohidrat,hidangan,A,CalorEase,CalorEase:mie ayam,mi ayam|mie ayam,300,1 mangkok (mie + topping),Satu mask untuk isi mangkok; bakso di atasnya dilabel bakso
+5,kentang_goreng,Kentang goreng,karbohidrat,komponen,A,Combination,Combination:kentang goreng,kentang goreng,100,1 porsi kecil,
+6,ayam_goreng,Ayam goreng,lauk_hewani,komponen,A,CalorEase;Combination;Calory,CalorEase:ayam goreng|Combination:ayam goreng|Calory:Ayam Goreng,ayam goreng,80,1 potong sedang (tanpa tulang),Satu mask per potong
+7,ayam_bakar,Ayam bakar,lauk_hewani,komponen,A,Combination,Combination:ayam bakar,ayam bakar|ayam panggang,80,1 potong sedang (tanpa tulang),Satu mask per potong
+8,rendang,Rendang,lauk_hewani,komponen,A,CalorEase;Combination,CalorEase:rendang|Combination:rendang,rendang,60,1 potong,Satu mask per potong; bumbu ikut di dalam mask
+9,sate,Sate,lauk_hewani,komponen,A,CalorEase;Combination,CalorEase:sate|Combination:sate,sate ayam|sate,100,±8 tusuk (tanpa bumbu kacang),"Satu mask per tusuk (per buah, untuk dihitung); bumbu kacang dilabel sambal_kacang"
+10,ikan_goreng,Ikan goreng,lauk_hewani,komponen,A,Combination,Combination:ikan goreng,ikan goreng|lele goreng|kembung goreng,80,1 ekor kecil / 1 potong (dapat dimakan),
+11,telur_ceplok,Telur ceplok,lauk_hewani,komponen,A,Combination;Calory,Combination:telur ceplok|Calory:Telur Mata Sapi,telur ceplok|telur goreng|telur mata sapi,60,1 butir,
+12,telur_dadar,Telur dadar,lauk_hewani,komponen,A,Combination;Calory,Combination:telur dadar|Calory:Telur Dadar,telur dadar,60,1 butir,
+13,telur_rebus,Telur rebus,lauk_hewani,komponen,A,Combination;Calory,Combination:telur rebus|Calory:Telur Rebus,telur rebus|telur ayam rebus,50,1 butir,Satu mask per potong yang terlihat (telur belah dua = 2 potong)
+14,bakso,Bakso (butir),lauk_hewani,komponen,A,Combination,Combination:bakso,bakso,100,±5 butir sedang,"Satu mask per butir (per buah, untuk dihitung); kuah dan mie tidak ikut mask"
+15,tempe_goreng,Tempe goreng,lauk_nabati,komponen,A,CalorEase;Combination;Calory,CalorEase:tempe goreng|Combination:tempe goreng|Calory:Tempe,tempe goreng|tempe kedelai murni goreng,50,2 potong sedang,Satu mask per potong
+16,tahu_goreng,Tahu goreng,lauk_nabati,komponen,A,CalorEase;Combination;Calory,CalorEase:tahu goreng|Combination:tahu goreng|Calory:Tahu,tahu goreng,50,1 potong besar,Satu mask per potong
+17,perkedel,Perkedel,lauk_nabati,komponen,A,Combination,Combination:perkedel,perkedel|bergedel,45,1 buah,Satu mask per buah
+18,sayur_bayam,Sayur bayam,sayur,komponen,A,Calory,Calory:Sayur bayam,sayur bayam|bayam rebus,100,1 mangkok kecil (dengan kuah),Mask mencakup isi mangkok
+19,sayur_sop,Sayur sop,sayur,komponen,A,Calory,Calory:Sayur sop,sayur sop|sop sayur,150,1 mangkok kecil,Mask mencakup isi mangkok
+20,capcay,Capcay,sayur,komponen,A,Combination;Calory,Combination:capcay|Calory:Capcay,cap cay|capcay,150,1 porsi lauk,
+21,tumis_kangkung,Tumis kangkung,sayur,komponen,A,Combination;Calory,Combination:tumis kangkung|Calory:Sayur kangkung,kangkung tumis|tumis kangkung|kangkung,100,1 porsi lauk,
+22,tumis_buncis,Tumis buncis,sayur,komponen,A,Combination;Calory,Combination:sayur buncis|Calory:Tumis buncis,buncis tumis|tumis buncis|buncis,100,1 porsi lauk,
+23,lalapan,Lalapan / sayur rebus,sayur,komponen,A,Combination,Combination:lalapan|Combination:timun|Combination:selada|Combination:kol|Combination:tomat|Combination:kacang panjang|Combination:tauge|Combination:wortel,ketimun|kol|selada|tomat|kacang panjang|tauge|wortel,50,segenggam,Kelas gabungan sayur mentah/rebus rendah kalori (isinya beragam); satu mask per kelompok
+24,soto,Soto,kuah,hidangan,A,CalorEase,CalorEase:soto,soto ayam|soto,350,1 mangkok (tanpa nasi),Satu mask untuk isi mangkok
+25,pempek,Pempek,lauk_hewani,hidangan,A,CalorEase,CalorEase:pempek,pempek|empek-empek,120,2–3 potong (tanpa cuko),Satu mask per kelompok potongan
+26,sambal,Sambal,pelengkap,komponen,A,CalorEase;Combination,CalorEase:sambal|Combination:sambal,sambal,15,1 sdm,
+27,kerupuk,Kerupuk,pelengkap,komponen,A,Combination,Combination:kerupuk,kerupuk,10,1 keping,Satu mask per keping
+28,pisang,Pisang,buah,komponen,A,Combination,Combination:pisang,pisang ambon|pisang,100,1 buah sedang (dikupas),
+29,lontong,Lontong,karbohidrat,komponen,B,Combination,Combination:lontong,lontong,100,1 potong besar,
+30,bihun,Bihun goreng,karbohidrat,hidangan,B,Combination,Combination:bihun,bihun goreng|bihun,150,1 porsi,
+31,roti_tawar,Roti tawar,karbohidrat,komponen,B,Combination,Combination:roti tawar,roti tawar|roti putih,30,1 lembar,
+32,ayam_suwir,Ayam suwir,lauk_hewani,komponen,B,Combination,Combination:ayam suwir,ayam suwir,50,1 porsi lauk,
+33,ayam_asam_manis,Ayam asam manis,lauk_hewani,komponen,B,Combination,Combination:ayam asam manis,ayam asam manis,100,1 porsi lauk,
+34,ikan_bakar,Ikan bakar,lauk_hewani,komponen,B,Combination,Combination:ikan bakar,ikan bakar|ikan panggang,80,1 potong (dapat dimakan),
+35,telur_balado,Telur balado,lauk_hewani,komponen,B,Combination,Combination:telur balado,telur balado,70,1 butir + bumbu,
+36,nugget,Nugget,lauk_hewani,komponen,B,Combination,Combination:nugget goreng,nugget ayam|nugget,60,3 buah,Satu mask per buah
+37,sosis,Sosis,lauk_hewani,komponen,B,Combination,Combination:sosis,sosis,40,1 batang,
+38,kering_tempe,Kering tempe,lauk_nabati,komponen,B,Combination,Combination:kering tempe,kering tempe,30,2 sdm,
+39,sambal_goreng_kentang,Sambal goreng kentang,lauk_nabati,komponen,B,Combination,Combination:sambal kentang,sambal goreng kentang,50,2 sdm,
+40,gado_gado,Gado-gado,sayur,hidangan,B,(perlu anotasi),Mendeley ITS (klasifikasi saja),gado-gado|gado gado,300,1 piring (dengan bumbu kacang),Dataset terbuka hanya label klasifikasi; perlu anotasi mask
+41,sambal_kacang,Bumbu kacang,pelengkap,komponen,B,Combination,Combination:sambal kacang,bumbu kacang|saus kacang,30,2 sdm,
+42,serundeng,Serundeng,pelengkap,komponen,B,Combination,Combination:serundeng,serundeng,15,1 sdm,
+43,apel,Apel,buah,komponen,B,(perlu foto),-,apel,150,1 buah sedang,Kelas dari project lama; belum ada dataset terbuka
+44,risol_mayo,Risol mayo,kue,komponen,B,(perlu foto),-,risoles|risol,60,1 buah,Kelas dari project lama; belum ada dataset terbuka
+45,klepon,Klepon,kue,komponen,B,(perlu foto),-,klepon,60,5 buah,Kelas dari project lama; belum ada dataset terbuka
+46,donat,Donat,kue,komponen,B,Combination,Combination:donat,donat,50,1 buah,Satu mask per buah
+47,martabak_manis,Martabak manis,kue,komponen,B,Combination,Combination:martabak manis,martabak manis|terang bulan,80,1 potong,
+48,teh_manis,Teh manis,minuman,komponen,B,Combination,Combination:teh,teh manis|teh,250,1 gelas (250 ml),Kadar gula bervariasi; minta konfirmasi user
+49,kopi,Kopi,minuman,komponen,B,Combination,Combination:kopi,kopi,200,1 cangkir,Kadar gula/susu bervariasi; minta konfirmasi user
+50,air_putih,Air putih,minuman,komponen,B,Combination,Combination:air putih,air,250,1 gelas,Opsional untuk pelacakan minum air
